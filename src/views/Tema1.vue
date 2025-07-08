@@ -381,58 +381,94 @@
 
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.4	Instalación
+
+    p(data-aos="fade-left").mb-4 Antes de iniciar la programación o la generación de código, es fundamental contar con una herramienta que facilite este proceso. Visual Studio Code, conocido también como VS Code, se ha consolidado como el editor de código más utilizado en el ámbito del desarrollo de software, gracias a su ligereza, versatilidad y múltiples funciones integradas. Por esta razón, en esta sección se abordará su instalación. Para ello, se invita a seguir los pasos descritos en el video:  
+
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/HIY8_g9uH7k?si=UuSgUVr2VRELTQq3" title="Instalación del editor de código Visual Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Instalación del editor de código Visual Studio Code
+
+    Separador
     
-    .row.mb-5
-      .col-lg-5.order-lg-2.mb-3.mb-lg-0
-        figure
-          img(src="@/assets/curso/temas/tema1/21.svg", data-aos="zoom-in")
-      .col-lg-7.order-lg-1
-        p(data-aos="fade-left") Antes de comenzar a programar o a generar código, es primordial tener a la mano una herramienta que facilite la codificación. <em>Visual Studio Code</em>, también conocido como VS Code, se ha posicionado como el editor de código más popular del mundo del desarrollo de <em>software</em>, gracias a su ligereza, versatilidad y funciones integradas; por ello, en esta sección se trabajará en la instalación de este editor de código, para lo cual, se les invita a ver los pasos a través del:
-        a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-          .anexo__icono
-            img(src="@/assets/template/icono-pdf.svg")
-          .anexo__texto
-            p Anexo. 1
+    //- .row.mb-5
+    //-   .col-lg-5.order-lg-2.mb-3.mb-lg-0
+    //-     figure
+    //-       img(src="@/assets/curso/temas/tema1/21.svg", data-aos="zoom-in")
+    //-   .col-lg-7.order-lg-1
+    //-     p(data-aos="fade-left") Antes de comenzar a programar o a generar código, es primordial tener a la mano una herramienta que facilite la codificación. <em>Visual Studio Code</em>, también conocido como VS Code, se ha posicionado como el editor de código más popular del mundo del desarrollo de <em>software</em>, gracias a su ligereza, versatilidad y funciones integradas; por ello, en esta sección se trabajará en la instalación de este editor de código, para lo cual, se les invita a ver los pasos a través del:
+    //-     a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+    //-       .anexo__icono
+    //-         img(src="@/assets/template/icono-pdf.svg")
+    //-       .anexo__texto
+    //-         p Anexo. 1
     
-    separador
+    //- separador
 
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.5	Configuración del entorno de trabajo     
-    
+
     .row.mb-5
-      .col-lg-5.order-lg-2.mb-3.mb-lg-0
+      .col-lg-6
+        .tarjeta.bg-color-13.px-4.py-5(data-aos="fade-left").mb-4
+          p.mb-0 Después de instalado el editor Visual Studio Code, el siguiente paso es realizar los ajustes al entorno de trabajo según las necesidades del desarrollador. Para ello se realizará una configuración básica inicial del editor y del lenguaje de programación de preferencia, el cual para esta ocasión se hará con Python, por ser uno de los lenguajes de programación más utilizados en el mundo y el de mayor crecimiento por el aporte que viene brindando a la inteligencia artificial y a otras tecnologías disruptivas. 
+        
+      .col-lg-6.d-none.d-lg-block
         figure
-          img(src="@/assets/curso/temas/tema1/22.png", data-aos="zoom-in")
-      .col-lg-7.order-lg-1
-        p(data-aos="fade-left") Después de instalado el editor <em>Visual Studio Code</em>, el siguiente paso es realizar los ajustes al entorno de trabajo según las necesidades del desarrollador. Para ello se realizará una configuración básica inicial del editor y del lenguaje de programación de preferencia, el cual para esta ocasión se hará con <em>Python</em>, por ser uno de los lenguajes de programación más utilizados en el mundo y el de mayor crecimiento por el aporte que viene brindando a la inteligencia artificial y a otras tecnologías disruptivas.
-        .bg-color-8.tarjeta(data-aos="fade-left")
-          .row.align-items-start
-            .col-lg-auto
-              img(src="@/assets/curso/temas/tema1/23.png", style="max-width: 190px").mx-auto
-            .col-lg.p-4
-              p Dentro de la configuración del editor se puede elegir entre temas claros y oscuros para modificar el color del tema, cambiar el idioma del editor a uno de su preferencia, activar el guardado automático, instalar las extensiones que se necesitan, por ejemplo para trabajar con un lenguaje en particular. Para ello se les invita a ver la configuración para trabajar con el editor:
-              a.anexo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/template/icono-pdf.svg")
-                .anexo__texto
-                  p <em>Visual Studio Code</em> en el Anexo 2.
+          img(src="@/assets/curso/temas/tema1/22b.png", data-aos="zoom-in").mb-4.mb-lg-0
+
+
+    p(data-aos="fade-left").mb-4 Dentro de la configuración del editor es posible elegir entre temas claros u oscuros para ajustar el color del entorno, cambiar el idioma a uno de preferencia, activar el guardado automático e instalar las extensiones necesarias, por ejemplo, para trabajar con un lenguaje específico. Por ello, se invita a revisar el video donde se explican los pasos para configurar el editor: 
+
+
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/MEdMKJ3XGds?si=S56lnADTT_bpZZ4k" title="Configuración del editor de código Visual Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Configuración del editor de código Visual Studio Code
+
+    p(data-aos="fade-right").mb-4 Para el desarrollo de los ejercicios se utilizará como lenguaje de programación de apoyo  Python, para lo cual se invita a ver la instalación de este y su configuración en el editor:
+
+    figure
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/tKC6nQZKHME?si=_sZAXKGvhD6TodlN" title="Configuración del editor de código Visual Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Instalación de Python en Visual Studio Code
+
+
+    Separador
     
-    .row.justify-content-center
-      .col-lg-10
-        .bg-color-9.tarjeta.p-4(data-aos="fade-left")
-          .row.align-items-start
-            .col-lg-auto.mb-3.mb-lg-0
-              img(src="@/assets/curso/temas/tema1/24.svg", style="max-width: 190px").mx-auto
-            .col-lg
-              p Para el desarrollo de los ejercicios se utilizará como lenguaje de programación de apoyo  <em>Python</em>, para lo cual se invita a ver la instalación de este y su configuración en el editor:
-              a.anexo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/template/icono-pdf.svg")
-                .anexo__texto
-                  p <em>Visual Studio Code</em> en el Anexo 3.
+    //- .row.mb-5
+    //-   .col-lg-5.order-lg-2.mb-3.mb-lg-0
+    //-     figure
+    //-       img(src="@/assets/curso/temas/tema1/22.png", data-aos="zoom-in")
+    //-   .col-lg-7.order-lg-1
+    //-     p(data-aos="fade-left") Después de instalado el editor <em>Visual Studio Code</em>, el siguiente paso es realizar los ajustes al entorno de trabajo según las necesidades del desarrollador. Para ello se realizará una configuración básica inicial del editor y del lenguaje de programación de preferencia, el cual para esta ocasión se hará con <em>Python</em>, por ser uno de los lenguajes de programación más utilizados en el mundo y el de mayor crecimiento por el aporte que viene brindando a la inteligencia artificial y a otras tecnologías disruptivas.
+    //-     .bg-color-8.tarjeta(data-aos="fade-left")
+    //-       .row.align-items-start
+    //-         .col-lg-auto
+    //-           img(src="@/assets/curso/temas/tema1/23.png", style="max-width: 190px").mx-auto
+    //-         .col-lg.p-4
+    //-           p Dentro de la configuración del editor se puede elegir entre temas claros y oscuros para modificar el color del tema, cambiar el idioma del editor a uno de su preferencia, activar el guardado automático, instalar las extensiones que se necesitan, por ejemplo para trabajar con un lenguaje en particular. Para ello se les invita a ver la configuración para trabajar con el editor:
+    //-           a.anexo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+    //-             .anexo__icono
+    //-               img(src="@/assets/template/icono-pdf.svg")
+    //-             .anexo__texto
+    //-               p <em>Visual Studio Code</em> en el Anexo 2.
+    
+    //- .row.justify-content-center
+    //-   .col-lg-10
+    //-     .bg-color-9.tarjeta.p-4(data-aos="fade-left")
+    //-       .row.align-items-start
+    //-         .col-lg-auto.mb-3.mb-lg-0
+    //-           img(src="@/assets/curso/temas/tema1/24.svg", style="max-width: 190px").mx-auto
+    //-         .col-lg
+    //-           p Para el desarrollo de los ejercicios se utilizará como lenguaje de programación de apoyo  <em>Python</em>, para lo cual se invita a ver la instalación de este y su configuración en el editor:
+    //-           a.anexo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
+    //-             .anexo__icono
+    //-               img(src="@/assets/template/icono-pdf.svg")
+    //-             .anexo__texto
+    //-               p <em>Visual Studio Code</em> en el Anexo 3.
 
 
-    separador
 
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.6 Uso del terminal integrado  

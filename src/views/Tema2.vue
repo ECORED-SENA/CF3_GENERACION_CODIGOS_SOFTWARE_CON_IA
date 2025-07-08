@@ -132,9 +132,9 @@
               p(data-aos="fade-left").mb-4.bg-color-11 Podcast
       
               TarjetaAudio.color-secundario.bg-color-white.mb-3(
-                texto="Fundamentos de la innovación estratégica"
+                texto="Características de un programa bien diseñado"
                 tiempo
-                :audio="require('../assets/curso/podcast/podcast1.mp3')"
+                :audio="require('../assets/curso/podcast/PodcastCF3.mp3')"
               )
 
     separador
@@ -1057,6 +1057,20 @@
             .col-lg
               p.mb-0 <b>Recomendación</b>: para las personas que desean aprender o asimilar mejor sus conocimientos, pueden intentar desarrollar el programa o en su defecto generarlo en la IA gen y luego escribirlo a mano en una hoja, después digitarlo en el editor; esto se hace con el fin de ir estimulando su memoria muscular, lo cual le ayuda a irse familiarizando con el lenguaje de programación, ir estimulando la lógica, ir  practicando y cuando menos lo piense podrá ir desenvolviéndose y codificando sus propios programas.
 
+    
+    p(data-aos="fade-left").mb-4 En el siguiente video se explorarán ejemplos de prompts que permiten generar códigos en Python con ayuda de ChatGPT. 
+
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/jC0CQhhrqLE?si=W7DrMKioUv0QW3St" title="Ejemplo 1. Generación de códigos en Phyton con ChatGPT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Ejemplo 1. Generación de códigos en Phyton con ChatGPT
+
+    p(data-aos="fade-left").mb-4 En el siguiente video se pondrán a prueba los códigos generados con ChatGPT utilizando Visual Studio Code, con el propósito de verificar que funcionen según lo esperado. 
+
+    figure.mb-5
+      .video
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/gIIuhddhie4?si=6NLXRibfwPeiR1CU" title="Ejemplo 2. Probando el código en el editor Visual Studio Code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+      figcaption Video: Ejemplo 2. Probando el código en el editor Visual Studio Code
 
 </template>
 
