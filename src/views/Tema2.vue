@@ -1062,7 +1062,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/jC0CQhhrqLE?si=W7DrMKioUv0QW3St" title="Ejemplo 1. Generación de códigos en Phyton con ChatGPT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/uBrzv48uPew?si=x3eItEj3LcieKMO9" title="Ejemplo 1. Generación de códigos en Phyton con ChatGPT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Ejemplo 1. Generación de códigos en Phyton con ChatGPT
 
     p(data-aos="fade-left").mb-4 En el siguiente video se pondrán a prueba los códigos generados con ChatGPT utilizando Visual Studio Code, con el propósito de verificar que funcionen según lo esperado. 

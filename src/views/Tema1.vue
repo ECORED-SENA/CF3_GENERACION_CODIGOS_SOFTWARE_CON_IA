@@ -423,7 +423,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/MEdMKJ3XGds?si=S56lnADTT_bpZZ4k" title="Configuración del editor de código Visual Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/esBB3a1AezE?si=V34k8gspmzr1mu06" title="Configuración del editor de código Visual Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Configuración del editor de código Visual Studio Code
 
     p(data-aos="fade-right").mb-4 Para el desarrollo de los ejercicios se utilizará como lenguaje de programación de apoyo  Python, para lo cual se invita a ver la instalación de este y su configuración en el editor:
