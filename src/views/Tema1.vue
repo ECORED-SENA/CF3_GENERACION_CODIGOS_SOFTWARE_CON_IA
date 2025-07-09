@@ -386,7 +386,7 @@
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/HIY8_g9uH7k?si=UuSgUVr2VRELTQq3" title="Instalación del editor de código Visual Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/9F0i2W4CtNM?si=PPNx6L9KCdEA829H" title="Instalación del editor de código Visual Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Instalación del editor de código Visual Studio Code
 
     Separador
@@ -430,7 +430,7 @@
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/tKC6nQZKHME?si=_sZAXKGvhD6TodlN" title="Configuración del editor de código Visual Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/gEg1lxY5ioA?si=LrXCEFch1lRAtzha" title="Configuración del editor de código Visual Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Instalación de Python en Visual Studio Code
 
 

@@ -1069,7 +1069,7 @@
 
     figure.mb-5
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/gIIuhddhie4?si=6NLXRibfwPeiR1CU" title="Ejemplo 2. Probando el código en el editor Visual Studio Code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/PupW5eLgK1g?si=7QmCEf15AHA3fnix" title="Ejemplo 2. Probando el código en el editor Visual Studio Code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
       figcaption Video: Ejemplo 2. Probando el código en el editor Visual Studio Code
 
 </template>
