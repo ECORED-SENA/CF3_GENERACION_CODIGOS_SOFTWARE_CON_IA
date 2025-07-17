@@ -26,7 +26,7 @@
           figure.mb-3
             img(src="@/assets/curso/temas/tema2/3.svg", alt="alt").img90.m-auto
           h4.text-center Secuencia
-          p.text-center.mb-0 Instrucciones que cumplen con un estricto orden para ejecutarse
+          p.text-center.mb-0 Instrucciones que cumplen con un estricto orden para ejecutarse.
       .col-lg-3.mb-4.mb-lg-0
         .crd.crd--grayGrad(data-aos="flip-left")
           figure.mb-3
@@ -71,7 +71,7 @@
           .row.align-items-center
             .col-md-6.mb-4.mb-md-0
               h5 Uso de estructuras de control básicas
-              p.mb-0 Se deben emplear tres estructuras clave: secuencia, selección (if, switch) e iteración (for, while, do-while) para estructurar adecuadamente un programa.
+              p.mb-0 Se deben emplear tres estructuras clave: secuencia, selección (#[i if], #[i switch]) e iteración (#[i for], #[i while], #[i do-while]) para estructurar adecuadamente un programa.
             .col-md-6
               figure
                 img(src='@/assets/curso/temas/tema2/7.png', alt='Texto que describa la imagen')
@@ -167,11 +167,11 @@
               img(src="@/assets/curso/temas/tema2/17.svg", style="max-width: 169px").mx-auto
             .col-lg
               p Mientras no se utilice una estructura de selección o iteración, cada instrucción se ejecuta de una vez, garantizando con ello un flujo lineal de ejecución, que puede llevar un seguimiento simple y predecible, al que incluso se le pueden realizar fácilmente pruebas para verificar la eficacia del código.
-              p.mb-0 Esta estructura representa la base del código, ya que las estructuras de selección e iteración están escritas bajo la base de la estructura de secuencia
+              p.mb-0 Esta estructura representa la base del código, ya que las estructuras de selección e iteración están escritas bajo la base de la estructura de secuencia.
     
     p.mb-5 Para conocer como se ve la estructura de secuencia, se comparten unos ejemplos: 
 
-    .row.justify-content-center
+    .row.justify-content-center.mb-5
       .col-lg-10
         AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta bg-color-1")
           div(titulo="Código en <em>Python</em>").justify-content-center
@@ -208,16 +208,16 @@
                   | &nbsp;&nbsp;&nbsp;&nbsp;}
                   | }
     
-    .titulo-con-imagen.mb-5(data-aos="fade-right")
+    .titulo-con-imagen(data-aos="fade-right")
       .titulo-con-imagen__fondo
         img.titulo-con-imagen__imagen(src="@/assets/componentes/1.svg")
         h3.titulo-con-imagen__texto Estructura de selección
     
-    .bg-full-width-2.bg-fondo-3.mb-5
+    .bg-full-width-2.bg-fondo-3.mb-5.px-5
       .p-4.p-md-5
-        .row.mb-5
+        .row.align-items-center.mb-5
           .col-lg-4.mb-3.mb-lg-0
-            p(data-aos="fade-left") Es una estructura de control que permite que se tomen decisiones mientras el programa esté corriendo. En otras palabras, para cualquier problema planteado, se presentan varios caminos, y de acuerdo a unas condiciones el programa elige un camino, dependiendo del resultado de las condiciones. 
+            p.mb-0(data-aos="fade-left") Es una estructura de control que permite que se tomen decisiones mientras el programa esté corriendo. En otras palabras, para cualquier problema planteado, se presentan varios caminos, y de acuerdo a unas condiciones el programa elige un camino, dependiendo del resultado de las condiciones. 
           .col-lg-3.mb-3.mb-lg-0
             figure
               img(src="@/assets/curso/temas/tema2/18.svg" data-aos="zoom-in")
@@ -531,10 +531,10 @@
               p.mb-0 Nombre nemotécnico o descriptivo.
             li.mb-0.d-flex
               i.fas.fa-check-circle.bg-color-14
-              p.mb-0 Parámetros de entrada (opcionales)
+              p.mb-0 Parámetros de entrada (opcionales).
             li.mb-0.d-flex
               i.fas.fa-check-circle.bg-color-14
-              p.mb-0 Valor de retorno (opcional)
+              p.mb-0 Valor de retorno (opcional).
             li.mb-0.d-flex
               i.fas.fa-check-circle.bg-color-14
               p.mb-0 Bloque de instrucciones o líneas de código, las cuales son las que realizan la tarea para la cual fue creada.
@@ -610,7 +610,7 @@
         figure
           img.d-none.d-lg-flex(src="@/assets/curso/temas/tema2/30.svg", data-aos="zoom-in")
       .col-lg-11
-        p(data-aos="fade-left") Después de conocer los ejemplos anteriores, hay que tener en cuenta que las funciones no se comportan igual, es decir, algunas pueden devolver un resultado, otras reciben datos y otras simplemente realizan la tarea para la cual fueron creadas. Conocer los diferentes tipos de funciones, le permite a los programadores construir programas mejor organizados.  A continuación la siguiente tabla resume los tipos de funciones que se pueden utilizar: 
+        p(data-aos="fade-left") Después de conocer los ejemplos anteriores, hay que tener en cuenta que las funciones no se comportan igual, es decir, algunas pueden devolver un resultado, otras reciben datos y otras simplemente realizan la tarea para la cual fueron creadas. Conocer los diferentes tipos de funciones, le permite a los programadores construir programas mejor organizados. A continuación, la siguiente tabla resume los tipos de funciones que se pueden utilizar:
     
     .row.justify-content-center.mb-5
       .col-lg-10
@@ -626,28 +626,32 @@
                     img(src="@/assets/curso/temas/tema2/35.svg", style="max-width: 90px").mx-auto
                   .col-lg
                     h5 Función sin parámetro y sin retorno
-                    p.mb-0 Solo ejecuta las instrucciones o la tarea encomendada. Ejemplo: mostrar un mensaje.
+                    p.mb-0 Solo ejecuta las instrucciones o la tarea encomendada.
+                    p.mb-0 Ejemplo: mostrar un mensaje.
               .bg-color-white.tarjeta.p-4.mb-3(data-aos="fade-left")
                 .row.align-items-start
                   .col-lg-auto
                     img(src="@/assets/curso/temas/tema2/36.svg", style="max-width: 90px").mx-auto
                   .col-lg
                     h5 Función con parámetros, pero sin retorno
-                    p.mb-0 Procesa los datos, pero no devuelve el valor o el resultado. Ejemplo: impresión de un reporte.
+                    p.mb-0 Procesa los datos, pero no devuelve el valor o el resultado.
+                    p.mb-0 Ejemplo: impresión de un reporte.
               .bg-color-white.tarjeta.p-4.mb-3(data-aos="fade-left")
                 .row.align-items-start
                   .col-lg-auto
                     img(src="@/assets/curso/temas/tema2/37.svg", style="max-width: 90px").mx-auto
                   .col-lg
                     h5 Función sin parámetros, pero con retorno
-                    p.mb-0 Devuelve un valor fijo. Ejemplo: obtener la fecha actual.
+                    p.mb-0 Devuelve un valor fijo.
+                    p.mb-0 Ejemplo: obtener la fecha actual.
               .bg-color-white.tarjeta.p-4.mb-3(data-aos="fade-left")
                 .row.align-items-start
                   .col-lg-auto
                     img(src="@/assets/curso/temas/tema2/38.svg", style="max-width: 90px").mx-auto
                   .col-lg
                     h5 Función con parámetros y con retorno
-                    p.mb-0 Procesa los datos y devuelve un valor o un resultado. Ejemplo: calcular el área cuadrada de un cultivo.
+                    p.mb-0 Procesa los datos y devuelve un valor o un resultado.
+                    p.mb-0 Ejemplo: calcular el área cuadrada de un cultivo.
     
     p.mb-5 Tal como se ha podido evidenciar, las funciones permiten organizar mejor el código de un programa y hacerlo más robusto con su reutilización. En el caso de la modularidad, en el siguiente cuadro se aprecia cómo se puede ver un programa organizado de esta forma:
 
@@ -659,9 +663,6 @@
         .tarjeta-codigo.p-5.mb-5
           pre.language-html(language="html").mt-5
             code
-              | Ejemplo de código que muestra la modularidad en la 
-              br
-              | programación estructurada
               | def leer_numero():
               | &nbsp;&nbsp;&nbsp;&nbsp;return float(input("Ingrese un n&uacute;mero: "))
               |
@@ -699,10 +700,10 @@
                   ul.ms-3.lista-ul--color.mb-0
                     li.mb-2.d-flex
                       i.fas.fa-check-circle.bg-color-14
-                      p.mb-0 Lenguaje de programación a trabajar: <em>Python</em>
+                      p.mb-0 Lenguaje de programación a trabajar: <em>Python</em>.
                     li.mb-2.d-flex
                       i.fas.fa-check-circle.bg-color-14
-                      p.mb-0 Paradigma de programación: programación estructurada
+                      p.mb-0 Paradigma de programación: programación estructurada.
                     li.mb-2.d-flex
                       i.fas.fa-check-circle.bg-color-14
                       p.mb-0 Recursos a utilizar para el desarrollo: funciones y estructuras de control. 
@@ -760,11 +761,11 @@
               | # Llamar a la funci&oacute;n principal
               | calculadora_simple()
         .titulo-sexto.color-acento-contenido
-          h5 Figura 4
+          h5 Figura 4.
           span Pantallazo del código en <em>Visual Studio Code</em> y ejecución en la terminal.
         
         figure.mb-5
-          img(src="@/assets/curso/temas/tema2/41.png", alt="Captura de pantalla del terminal en <em>Visual Studio Code</em> que muestra la ejecución de un programa en <em>Python</em> para calcular promedios individuales de estudiantes y el promedio general del grupo, con entradas numéricas y salidas de texto. ")  
+          img(src="@/assets/curso/temas/tema2/41.png", alt="Captura de pantalla del terminal en Visual Studio Code que muestra la ejecución de un programa en <em>Python</em> para calcular promedios individuales de estudiantes y el promedio general del grupo, con entradas numéricas y salidas de texto. ")  
       div(titulo="Ejemplo 2: calculadora").justify-content-center
         p <b><em>Prompt</em></b>: Un estudiante al que se le dañó su calculadora, desea hacer un programa que le permita realizar las 4 operaciones aritméticas.
         h5.mb-3 Código generado en <em>Python</em> con <em>ChatGPT</em>
@@ -827,7 +828,7 @@
               | calculadora()
 
         .titulo-sexto.color-acento-contenido
-          h5 Figura 5
+          h5 Figura 5.
           span Pantallazo del código en <em>Visual Studio Code</em> y ejecución en la terminal.
         
         figure.mb-5
@@ -860,7 +861,7 @@
               | ordenar_nombres_estudiantes()
 
         .titulo-sexto.color-acento-contenido
-          h5 Figura 6
+          h5 Figura 6.
           span Pantallazo del código en <em>Visual Studio Code</em> y ejecución en la terminal.
         
         figure.mb-5
@@ -902,13 +903,13 @@
               | promedio_general()
 
         .titulo-sexto.color-acento-contenido
-          h5 Figura 7
+          h5 Figura 7.
           span Pantallazo del código en <em>Visual Studio Code</em> y ejecución en la terminal.
         
         figure.mb-5
           img(src="@/assets/curso/temas/tema2/44.png", alt="Captura de pantalla de <em>Visual Studio Code</em> con código <em>Python</em> que calcula el promedio ponderado de un estudiante en tres materias y el promedio general, junto con la salida en la terminal que muestra los datos ingresados y los resultados de cada cálculo.") 
       div(titulo="Ejemplo 5: venta de productos electrónicos").justify-content-center
-        p <b><em>Prompt</em></b>: Ricardo está vendiendo dispositivos electrónicos. Carlos le ha hecho una compra y necesita hacerle la factura. Para hacer la factura necesita saber la cantidad de dispositivos vendidos, el valor del dispositivo vendido, el descuento por la venta, el impuesto por la venta y el total a pagar en la factura
+        p <b><em>Prompt</em></b>: Ricardo está vendiendo dispositivos electrónicos. Carlos le ha hecho una compra y necesita hacerle la factura. Para hacer la factura necesita saber la cantidad de dispositivos vendidos, el valor del dispositivo vendido, el descuento por la venta, el impuesto por la venta y el total a pagar en la factura.
         h5.mb-3 Código generado en <em>Python</em> con <em>ChatGPT</em>
         .tarjeta-codigo.p-5.mb-5
           pre.language-html(language="html").mt-5
@@ -956,7 +957,7 @@
               | calcular_factura()
 
         .titulo-sexto.color-acento-contenido
-          h5 Figura 8
+          h5 Figura 8.
           span Pantallazo del código en <em>Visual Studio Code</em> y ejecución en la terminal.
         
         figure.mb-5
@@ -992,7 +993,7 @@
               | venta_leche_quincenal()
 
         .titulo-sexto.color-acento-contenido
-          h5 Figura 9
+          h5 Figura 9.
           span Pantallazo del código en <em>Visual Studio Code</em> y ejecución en la terminal.
         
         figure.mb-5
@@ -1037,7 +1038,7 @@
               | entrenamiento_atleta()
 
         .titulo-sexto.color-acento-contenido
-          h5 Figura 10
+          h5 Figura 10.
           span Pantallazo del código en <em>Visual Studio Code</em> y ejecución en la terminal.
         
         figure.mb-5
@@ -1045,32 +1046,33 @@
     
     p.mb-5 Como se ha podido verificar en los diferentes ejemplos, los códigos fueron generados con la versión gratuita de <em>ChatGPT</em> y probados en el editor de código <em>Visual Studio Code</em>. Hay que tener presente que para que el código pueda correr sin problemas, deben tener instalado <em>Python</em> y configurado el editor. Se hace la salvedad, porque algunos intentan correr el código de cualquier lenguaje, pero no tienen instaladas las extensiones o cualquier otro recurso tanto en el editor como en el equipo para que el código pueda ser ejecutado sin ningún problema. 
 
-    .row.mb-5
-      .col-lg-4.order-lg-2.mb-3.mb-lg-0
+    .row.align-items-center.mb-5
+      .col-lg-auto.order-lg-2.mb-3.mb-lg-0
         figure
-          img(src="@/assets/curso/temas/tema2/49.png", data-aos="zoom-in")
-      .col-lg-8.order-lg-1
+          img(src="@/assets/curso/temas/tema2/49.png", data-aos="zoom-in", style="max-width: 360px").mx-auto
+      .col-lg.order-lg-1
         .bg-color-15.p-4(data-aos="fade-left")
-          .row.align-items-start
+          .row.align-items-center
             .col-lg-auto.mb-3.mb-lg-0
               img(src="@/assets/curso/temas/tema2/48.png", style="max-width: 300px").mx-auto
             .col-lg
-              p.mb-0 <b>Recomendación</b>: para las personas que desean aprender o asimilar mejor sus conocimientos, pueden intentar desarrollar el programa o en su defecto generarlo en la IA gen y luego escribirlo a mano en una hoja, después digitarlo en el editor; esto se hace con el fin de ir estimulando su memoria muscular, lo cual le ayuda a irse familiarizando con el lenguaje de programación, ir estimulando la lógica, ir  practicando y cuando menos lo piense podrá ir desenvolviéndose y codificando sus propios programas.
+              p.mb-0 <b>Recomendación</b>: Para quienes desean aprender o reforzar sus conocimientos en programación, una estrategia útil es intentar desarrollar el programa por sí mismos. En caso de dificultad, pueden apoyarse en una IA generativa para obtener una solución inicial. Luego, se recomienda transcribir el código a mano en una hoja y después digitarlo en el editor de código.
 
+    p(data-aos="fade-left") Este proceso estimula la memoria muscular, favorece la familiarización con la sintaxis del lenguaje, fortalece la lógica de programación y promueve la práctica constante. Con el tiempo, y casi sin notarlo, el estudiante podrá desenvolverse con mayor soltura y comenzar a codificar sus propios programas de manera autónoma.
     
-    p(data-aos="fade-left").mb-4 En el siguiente video se explorarán ejemplos de prompts que permiten generar códigos en Python con ayuda de ChatGPT. 
+    p(data-aos="fade-left").mb-4 En el siguiente video se explorarán ejemplos de prompts que permiten generar códigos en #[i Python] con ayuda de #[i ChatGPT]. 
 
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/uBrzv48uPew?si=x3eItEj3LcieKMO9" title="Ejemplo 1. Generación de códigos en Phyton con ChatGPT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Ejemplo 1. Generación de códigos en Phyton con ChatGPT
+      figcaption #[b Video 4.] Ejemplo1. Generación de códigos en #[i Python] con #[i ChatGPT]
 
-    p(data-aos="fade-left").mb-4 En el siguiente video se pondrán a prueba los códigos generados con ChatGPT utilizando Visual Studio Code, con el propósito de verificar que funcionen según lo esperado. 
+    p(data-aos="fade-left").mb-4 En el siguiente video se pondrán a prueba los códigos generados con #[i ChatGPT] utilizando #[i Visual Studio Code], con el propósito de verificar que funcionen según lo esperado. 
 
-    figure.mb-5
+    figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/PupW5eLgK1g?si=7QmCEf15AHA3fnix" title="Ejemplo 2. Probando el código en el editor Visual Studio Code" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Ejemplo 2. Probando el código en el editor Visual Studio Code
+      figcaption #[b Video 5.] Ejemplo 2. Probando el código en el editor de #[i Visual Studio Code]
 
 </template>
 

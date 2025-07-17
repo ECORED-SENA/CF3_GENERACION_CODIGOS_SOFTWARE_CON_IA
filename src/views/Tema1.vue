@@ -16,7 +16,7 @@
           .bloque-texto-d.color-primario.p-4
             .bloque-texto-d__texto.mb-2
               i.fas.fa-quote-left
-              p.mb-0 El editor de código fuente es una herramienta utilizada para escribir, corregir, modificar y gestionar código en distintos lenguajes de programación. Su uso resulta fundamental en el desarrollo de <em>software</em>, ya que permite crear aplicaciones y programas para entornos de escritorio, móviles o web. Además, facilita la depuración de errores, promueve el trabajo colaborativo —especialmente al integrarse con sistemas de control de versiones— y contribuye a una mayor organización en el proceso de desarrollo.
+              p.mb-0 El editor de código fuente es una herramienta utilizada para escribir, corregir, modificar y gestionar código en distintos lenguajes de programación. Su uso resulta fundamental en el desarrollo de <em>software</em>, ya que permite crear aplicaciones y programas para entornos de escritorio, móviles o web. Además, facilita la depuración de errores, promueve el trabajo colaborativo — especialmente al integrarse con sistemas de control de versiones — y contribuye a una mayor organización en el proceso de desarrollo.
               i.fas.fa-quote-right
             .bloque-texto-d__autor.text-white 
               .h5.mb-0 Id Digital School, 2024
@@ -164,7 +164,7 @@
         p(data-aos="fade-left") A la hora de elegir un buen editor de código para trabajar hay que tener en cuenta el tipo de proyecto en que se está trabajando o se desea desarrollar, los objetivos de programación que se están persiguiendo y el nivel de habilidad que se ha logrado como programador, con el fin de trabajar con el editor que más se ajuste a las necesidades. A la hora de elegir un editor, se recomienda tener en cuenta puntos como rendimiento optimizado, características del editor, funciones de navegación, código de referencias y que tan personalizable es (Weisheim, 2022).  A continuación se comparte una lista de editores, donde podrán encontrar un alista de herramientas para facilitar el trabajo de la programación:
     
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-      h5 Tabla 1
+      h5 Tabla 1.
       span Lista de editores de código fuente
     .bg-full-width.bg-color-6
       .p-4.p-md-5
@@ -247,13 +247,13 @@
         p.mb-5 Basados en la tabla anterior, donde se muestra una variedad de editores, elegir un buen entorno de programación es primordial para la productividad y la experiencia del desarrollador. De ahí que cuando se está comenzando, es bueno conocer sobre los diferentes rankings que se realizan a nivel mundial para ver cómo están posicionadas las herramientas que se utilizan en el campo de la informática, con el fin de estar al día con las tecnologías que se trabajan en el mercado. En ese orden de ideas, la encuesta global de <em>Stack overflow</em>, recopila una gran cantidad de datos, basado en el consenso de miles de profesionales para identificar las más utilizadas en diferentes áreas de la industria. Los resultados del 2024 posicionan al editor <em>Visual Studio Code</em> como líder indiscutible, con una preferencia del 73,6 %, lo que demuestra actualmente su hegemonía.
     
         .row.justify-content-center
-          .col-lg-8  
+          .col-lg-10 
             .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-              h5 Figura 1
+              h5 Figura 1.
               span Ranking de editores de código del año 2024
             
             figure
-              img(src="@/assets/curso/temas/tema1/17.png", data-aos="zoom-in", alt="Gráfico de barras horizontales sobre popularidad de editores y entornos de desarrollo en el que <em>Visual Studio Code</em> lidera con 73.6%, seguido por Visual Studio, IntelliJ IDEA y Notepad++, y con otras opciones como Vim, Android Studio, PyCharm, JupyterLab, Eclipse, Xcode y Emacs distribuidas en menor proporción. ")
+              img(src="@/assets/curso/temas/tema1/1.jpg", data-aos="zoom-in", alt="Gráfico de barras horizontales sobre popularidad de editores y entornos de desarrollo en el que <em>Visual Studio Code</em> lidera con 73.6%, seguido por Visual Studio, IntelliJ IDEA y Notepad++, y con otras opciones como Vim, Android Studio, PyCharm, JupyterLab, Eclipse, Xcode y Emacs distribuidas en menor proporción. ").m-auto
               figcaption Nora. Tomado de <em>Stack overflow</em> (2024).
   
     separador
@@ -264,7 +264,7 @@
     p.mb-4 Hasta este punto, está bien definido que los editores de código fuente han sido diseñados para facilitar la escritura, lectura y gestión del código. Esto se debe, en parte, a la interfaz y a la estructura del editor, que permiten al programador interactuar de forma más fluida con la herramienta. Es importante tener presente que, aunque existe una amplia variedad de editores, cada uno posee particularidades propias. No obstante, la mayoría comparte ciertos componentes comunes que les otorgan una organización tanto visual como funcional. Entre estos componentes comunes, se destacan los siguientes:
 
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-      h5 Figura 2
+      h5 Figura 2.
       span Interfaz de <em>Visual Studio Code</em> con sus componentes principales.
     
     figure.mb-5
@@ -382,28 +382,14 @@
     #t_1_4.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.4	Instalación
 
-    p(data-aos="fade-left").mb-4 Antes de iniciar la programación o la generación de código, es fundamental contar con una herramienta que facilite este proceso. Visual Studio Code, conocido también como VS Code, se ha consolidado como el editor de código más utilizado en el ámbito del desarrollo de software, gracias a su ligereza, versatilidad y múltiples funciones integradas. Por esta razón, en esta sección se abordará su instalación. Para ello, se invita a seguir los pasos descritos en el video:  
+    p(data-aos="fade-left").mb-4 Antes de iniciar la programación o la generación de código, es fundamental contar con una herramienta que facilite este proceso. #[i Visual Studio Code], conocido también como VS Code, se ha consolidado como el editor de código más utilizado en el ámbito del desarrollo de software, gracias a su ligereza, versatilidad y múltiples funciones integradas. Por esta razón, en esta sección se abordará su instalación. Para ello, se invita a seguir los pasos descritos en el video:  
 
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/9F0i2W4CtNM?si=PPNx6L9KCdEA829H" title="Instalación del editor de código Visual Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Instalación del editor de código Visual Studio Code
+      figcaption #[b Video 1.] Instalación del editor de código #[i Visual Studio Code]
 
     Separador
-    
-    //- .row.mb-5
-    //-   .col-lg-5.order-lg-2.mb-3.mb-lg-0
-    //-     figure
-    //-       img(src="@/assets/curso/temas/tema1/21.svg", data-aos="zoom-in")
-    //-   .col-lg-7.order-lg-1
-    //-     p(data-aos="fade-left") Antes de comenzar a programar o a generar código, es primordial tener a la mano una herramienta que facilite la codificación. <em>Visual Studio Code</em>, también conocido como VS Code, se ha posicionado como el editor de código más popular del mundo del desarrollo de <em>software</em>, gracias a su ligereza, versatilidad y funciones integradas; por ello, en esta sección se trabajará en la instalación de este editor de código, para lo cual, se les invita a ver los pasos a través del:
-    //-     a.anexo.mb-4(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-    //-       .anexo__icono
-    //-         img(src="@/assets/template/icono-pdf.svg")
-    //-       .anexo__texto
-    //-         p Anexo. 1
-    
-    //- separador
 
     #t_1_5.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.5	Configuración del entorno de trabajo     
@@ -411,7 +397,7 @@
     .row.mb-5
       .col-lg-6
         .tarjeta.bg-color-13.px-4.py-5(data-aos="fade-left").mb-4
-          p.mb-0 Después de instalado el editor Visual Studio Code, el siguiente paso es realizar los ajustes al entorno de trabajo según las necesidades del desarrollador. Para ello se realizará una configuración básica inicial del editor y del lenguaje de programación de preferencia, el cual para esta ocasión se hará con Python, por ser uno de los lenguajes de programación más utilizados en el mundo y el de mayor crecimiento por el aporte que viene brindando a la inteligencia artificial y a otras tecnologías disruptivas. 
+          p.mb-0 Después de instalado el editor #[i Visual Studio Code], el siguiente paso es realizar los ajustes al entorno de trabajo según las necesidades del desarrollador. Para ello se realizará una configuración básica inicial del editor y del lenguaje de programación de preferencia, el cual para esta ocasión se hará con Python, por ser uno de los lenguajes de programación más utilizados en el mundo y el de mayor crecimiento por el aporte que viene brindando a la inteligencia artificial y a otras tecnologías disruptivas. 
         
       .col-lg-6.d-none.d-lg-block
         figure
@@ -424,51 +410,16 @@
     figure.mb-5
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/esBB3a1AezE?si=V34k8gspmzr1mu06" title="Configuración del editor de código Visual Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Configuración del editor de código Visual Studio Code
+      figcaption #[b Video 2.] Configuración del editor de código #[i Visual Studio Code]
 
-    p(data-aos="fade-right").mb-4 Para el desarrollo de los ejercicios se utilizará como lenguaje de programación de apoyo  Python, para lo cual se invita a ver la instalación de este y su configuración en el editor:
+    p(data-aos="fade-right").mb-4 Para el desarrollo de los ejercicios se utilizará #[i Python] como lenguaje de programación de apoyo. Por ello, se invita a revisar el video donde se explican los pasos para su instalación y configuración en el editor.
 
     figure
       .video
         iframe(width="560" height="315" src="https://www.youtube.com/embed/gEg1lxY5ioA?si=LrXCEFch1lRAtzha" title="Configuración del editor de código Visual Studio" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Instalación de Python en Visual Studio Code
-
+      figcaption #[b Video 3.] Instalación de #[i Python] y configuración de #[i Visual Studio Code]
 
     Separador
-    
-    //- .row.mb-5
-    //-   .col-lg-5.order-lg-2.mb-3.mb-lg-0
-    //-     figure
-    //-       img(src="@/assets/curso/temas/tema1/22.png", data-aos="zoom-in")
-    //-   .col-lg-7.order-lg-1
-    //-     p(data-aos="fade-left") Después de instalado el editor <em>Visual Studio Code</em>, el siguiente paso es realizar los ajustes al entorno de trabajo según las necesidades del desarrollador. Para ello se realizará una configuración básica inicial del editor y del lenguaje de programación de preferencia, el cual para esta ocasión se hará con <em>Python</em>, por ser uno de los lenguajes de programación más utilizados en el mundo y el de mayor crecimiento por el aporte que viene brindando a la inteligencia artificial y a otras tecnologías disruptivas.
-    //-     .bg-color-8.tarjeta(data-aos="fade-left")
-    //-       .row.align-items-start
-    //-         .col-lg-auto
-    //-           img(src="@/assets/curso/temas/tema1/23.png", style="max-width: 190px").mx-auto
-    //-         .col-lg.p-4
-    //-           p Dentro de la configuración del editor se puede elegir entre temas claros y oscuros para modificar el color del tema, cambiar el idioma del editor a uno de su preferencia, activar el guardado automático, instalar las extensiones que se necesitan, por ejemplo para trabajar con un lenguaje en particular. Para ello se les invita a ver la configuración para trabajar con el editor:
-    //-           a.anexo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-    //-             .anexo__icono
-    //-               img(src="@/assets/template/icono-pdf.svg")
-    //-             .anexo__texto
-    //-               p <em>Visual Studio Code</em> en el Anexo 2.
-    
-    //- .row.justify-content-center
-    //-   .col-lg-10
-    //-     .bg-color-9.tarjeta.p-4(data-aos="fade-left")
-    //-       .row.align-items-start
-    //-         .col-lg-auto.mb-3.mb-lg-0
-    //-           img(src="@/assets/curso/temas/tema1/24.svg", style="max-width: 190px").mx-auto
-    //-         .col-lg
-    //-           p Para el desarrollo de los ejercicios se utilizará como lenguaje de programación de apoyo  <em>Python</em>, para lo cual se invita a ver la instalación de este y su configuración en el editor:
-    //-           a.anexo(:href="obtenerLink('/downloads/prueba.pdf')" target="_blank")
-    //-             .anexo__icono
-    //-               img(src="@/assets/template/icono-pdf.svg")
-    //-             .anexo__texto
-    //-               p <em>Visual Studio Code</em> en el Anexo 3.
-
-
 
     #t_1_6.titulo-segundo.color-acento-contenido(data-aos="fade-right")
       h2 1.6 Uso del terminal integrado  
@@ -491,11 +442,11 @@
               p(data-aos="fade-left") En el caso de <em>Visual Studio Code</em>, el terminal integrado actúa como una línea de comandos que se encuentra alojada en el editor y que se adapta al sistema operativo con el cual se esté trabajando, lo que agiliza el trabajo al permitir esa interacción fluida entre el código y la consola sin salir del entorno de desarrollo. Este editor permite trabajar con múltiples terminales en paralelo, así mismo elegir diferentes intérpretes de comando como CMD, Bash, o PowerShell, entre otros.
     
     .titulo-sexto.color-acento-contenido(data-aos="fade-right")
-      h5 Figura 3
+      h5 Figura 3.
       span Visualización de terminal integrada en <em>Visual Studio Code</em>.
     
-    figure.mb-5
-      img(src="@/assets/curso/temas/tema1/27.png", data-aos="zoom-in", alt="Captura de pantalla del terminal en <em>Visual Studio Code</em> que muestra la ejecución de un programa en <em>Python</em> para calcular promedios individuales de estudiantes y el promedio general del grupo, con entradas numéricas y salidas de texto. ")
+    figure
+      img(src="@/assets/curso/temas/tema1/2.jpg", style="max-width: 1200px" ,data-aos="zoom-in", alt="Captura de pantalla del terminal en Visual Studio Code que muestra la ejecución de un programa en Python para calcular promedios individuales de estudiantes y el promedio general del grupo, con entradas numéricas y salidas de texto.").m-auto
   
 </template>
 

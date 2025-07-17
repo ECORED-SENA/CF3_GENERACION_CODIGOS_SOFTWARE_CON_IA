@@ -27,11 +27,6 @@
             .bg-color-1.tarjeta.p-5.mb-3.text-white(data-aos="fade-left")
               p.mb-0 Lograr comprender la lógica que hay detrás de un algoritmo, aplicar un diseño estructurado y plasmarlo en un lenguaje de programación, había sido un reto exclusivo de pocos, pero con las herramientas que se tienen hoy en día y los nuevos objetivos que va persiguiendo la sociedad, es mayor el número de personas que ya están trabajando o buscando trabajar en la construcción de <em>software</em> de calidad, que pueda adaptarse fácilmente a los retos del entorno actual y seguirse optimizando, porque así como los desafíos no son estáticos, las soluciones que hoy se están planteando tampoco lo son.
             p(data-aos="fade-left") El componente Fundamentos de programación estructurada y herramientas de desarrollo, da respuesta a esa necesidad, brindando un espacio formativo para fortalecer las competencias en la construcción y generación lógica del código fuente, así como del aprovechamiento de los editores de código y demás herramientas de desarrollo que permitan analizar los problemas, plantear una solución lógica o en su defecto interactuar con modelos de inteligencia artificial generativa, para generar soluciones que se puedan integrar al flujo de trabajo del desarrollo de <em>software</em>. De este modo, este componente contribuye en la adquisición de habilidades que son valoradas en el sector tecnológico, facilitando esa interacción entre los desarrolladores, las herramientas de IA y el entorno profesional.
-        
-            
-
-    
-       
 
 </template>
 

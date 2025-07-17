@@ -72,12 +72,12 @@ export default {
             {
               id: 'b',
               texto: 'Libre y de pago.',
-              esCorrecta: true,
+              esCorrecta: false,
             },
             {
               id: 'c',
-              texto: 'Libre y de pago.',
-              esCorrecta: false,
+              texto: 'Libre y gratuito.',
+              esCorrecta: true,
             },
             {
               id: 'd',
